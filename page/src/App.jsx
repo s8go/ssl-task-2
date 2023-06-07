@@ -10,7 +10,7 @@ function App() {
    <div className="container-fluid row mx-auto ">
 
     <Nav/>
-<div className=" row mx-auto mt" style={{marginTop:"6em"}}>
+<div className="m-auto d-md-flex" style={{paddingTop:"6em"}}>
 <Sidebar/>
 <Main/>
 </div>
