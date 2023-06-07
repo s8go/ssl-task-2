@@ -1,4 +1,5 @@
 import React from 'react'
+import {AiOutlinePlus} from "react-icons/ai"
 
 const Top = () => {
   return (
@@ -8,7 +9,7 @@ const Top = () => {
         <p>All project in current month</p>
        </div>
 
-       <p>+</p>
+       <p className='border p-2 rounded-3 bg-blue text-white'><AiOutlinePlus/> </p>
     </div>
   )
 }

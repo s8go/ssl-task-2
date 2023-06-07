@@ -5,7 +5,7 @@ import Activities from './activities/Activities'
 
 const Main = () => {
   return (
-    <main className='col-sm col-md-9 gray-bg p-5' style={{borderRadius:".5em"}}>
+    <main className=' gray-bg p-5 rounded-5' >
       <Top/>
       <Tab/>
       <Activities/>
