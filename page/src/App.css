@@ -1,0 +1,41 @@
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-gray{
+  border-color: rgb(185, 185, 185);
+  outline: 0px solid gray;
+}
+.bg-purple {
+  background-color: purple;
+}
+.bg-blue {
+  background-color: rgb(0, 200, 255);
+}
+.bg-red {
+  background-color: red;
+}
+
+.text-color{
+  color: black;
+}
+
+.gray-bg{
+  background-color: rgb(239, 239, 239);;
+}
+
+.team-img{
+  width: 1.5em;
+  height: 1.5em;
+  margin-inline: .3em;
+}
+
+.tab{
+  border-radius: .5em;
+  /* border: 1px solid rgb(0, 200, 255); */
+
+}

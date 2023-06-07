@@ -1,26 +1,21 @@
+import Nav from "./components/Nav/NavBar"
+import styles from "./App.css"
+import Sidebar from "./components/Sidebar/Sidebar"
+import Main from "./components/main/Main"
+
 function App() {
 
   return (
     <>
-     <header className="App-header">     
- 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a className="btn btn-primary"
-             data-bs-toggle="collapse"
-             href="#collapseExample"
-             role="button"
-             aria-expanded="false"
-             aria-controls="collapseExample">
-        Bootstrap button
-        </a>
-    </header>
+   <div className="container-fluid row mx-auto ">
+
+    <Nav/>
+<div className=" row mx-auto mt" style={{marginTop:"6em"}}>
+<Sidebar/>
+<Main/>
+</div>
+</div>
+
     </>
   )
 }
